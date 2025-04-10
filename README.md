@@ -10,7 +10,10 @@ Modifier le ligne 18 avec URL de la liste des emails.
 La liste des emails est stockées sous la forme d'un tableau JSON, par example :
 ```
 {
-  "emails": ["destinataire1@example.com", "destinataire2@example.com"]
+  "emails": [
+    "destinataire1@example.com",
+    "destinataire2@example.com"
+  ]
 }
 ```
 
