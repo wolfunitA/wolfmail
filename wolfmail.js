@@ -1,7 +1,7 @@
-const Imap = require('imap');
-const { simpleParser } = require('mailparser');
-const fetch = require('node-fetch');
-const nodemailer = require('nodemailer');
+import Imap from 'imap';
+import { simpleParser } from 'mailparser';
+import fetch from 'node-fetch';
+import nodemailer  from 'nodemailer';
 
 const EMAIL = 'ton_email@gmail.com';
 const PASSWORD = 'ton_mot_de_passe';
